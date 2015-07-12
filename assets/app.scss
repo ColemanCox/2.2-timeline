@@ -1,43 +1,47 @@
-.date{
-  font-size:20px;
- color:yellow;
-  background:blue;
-  border-radius:10px;
-  margin:-65px ;
+@import 'reset-css/reset';
+@import 'fontawesome/css/font-awesome.css';
 
+.timeline {
+  border-left: 4px solid #3639A8;
+  margin-left: 20%;
 }
 
-
-.time{  font-size:10px;
- color:yellow;
-  background:blue;
-  border-radius:10px;
-  float:left;
-
-
+.event {
+  margin: 5rem 15%;
+  background-color:teal;
+   position:relative;
 }
 
-p{
-  display:horizontal-align;
-  color:yellow;
-  font-size:15px;
-  background-color:blue;
-max-width:419px;
-  display:vertical-align;
-  margin:9%;
- font-family:cursive;
+.event i {
+  position:absolute;
+  right: 120%;
+  top: -1%;
+  border:5px solid black;
+  border-radius:10px;
+  background-color:lime;
+}
+
+.left{
+  position: absolute;
+  right: 130%;
+
 }
 
 h3{
- display:horizontal-align;
-font-size:30px;
-font-family: cursive;
-  background-color: teal;
-  border:2px solid green;
-width:419px;
-  padding:15px;
-  margin:-80px 75px;
-  color:yellow;
+  font-family: cursive;
+  border-bottom:2px solid white;
+  background: rgb( 0, 128, 113);
+  padding: 1rem;
+  font-size:20px;
+
+
+
 }
+p,h3{
+color:white;
+  padding: 1rem;
 
-
+}
+.time{
+  color:blue;
+}
