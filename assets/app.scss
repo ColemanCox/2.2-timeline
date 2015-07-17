@@ -1,5 +1,11 @@
 @import 'reset-css/reset';
 @import 'fontawesome/css/font-awesome.css';
+html{
+  box-sizing: border-box;
+}
+   *,*:before, *:after{
+    box-sizing:inherit;
+}
 
 .timeline {
   border-left: 4px solid #3639A8;

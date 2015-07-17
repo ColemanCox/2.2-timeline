@@ -13,6 +13,8 @@
     "tests"
   ],
   "dependencies": {
-    "reset-css": "~2.0.2011012602"
-  }
+    "reset-css": "~2.0.2011012602",
+    "fontawesome": "~4.3.0"
+  },
+  "homepage": "https://github.com/ColemanCox/2.2-timeline"
 }

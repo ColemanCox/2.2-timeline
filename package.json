@@ -1,7 +1,6 @@
 {
   "name": "2.2-timeline",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "broccoli": "rtablada/broccoli#feature/server-returns",
     "broccoli-merge-trees": "^0.2.1",
     "broccoli-sass": "^0.6.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColemanCox/2.2-timeline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ColemanCox/2.2-timeline/issues"
+  },
+  "homepage": "https://github.com/ColemanCox/2.2-timeline#readme",
+  "description": ""
 }
